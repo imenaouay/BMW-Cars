@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMW Cars</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"-->
+  </head>
+  <body>
+          <!--Header-->
+          <header>
+            <span class="year">2023 - 2024</span>
+            <a href="./index.html" class="logo"><img src="/images/logo.png" alt="logo" /></a>
+            <a href="#" class="menu" onclick="toggleMenu();"></a>
+          </header>
+          <div class="banner">
+            <ul class="nav">
+              <li><a href="#">Supercars</a></li>
+              <li><a href="#">GT</a></li>
+              <li><a href="#">Ultimate</a></li>
+              <li><a href="#">Solus GT</a></li>
+              <li><a href="#">Legacy</a></li>
+            </ul>
+      <div class="bg-video-list">
+        <video
+          class="bg-video BMW-1 active"
+          src="./assets/BMW-0.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          class="bg-video BMW-2"
+          src="./assets/BMW-2.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          class="bg-video BMW-3"
+          src="./assets/BMW-3.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          class="bg-video BMW-4"
+          src="./assets/BMW-4.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          class="bg-video BMW-5"
+          src="./assets/BMW-5.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div class="content">
+        <h1>BMW-1</h1>
+        <h3 class="model BMW-1 active">LTsPIDER</h3>
+        <h3 class="model BMW-2" style="color: #054dc1">ARtu</h3>
+        <h3 class="model BMW-3" style="color: #273f07">895T</h3>
+        <h3 class="model BMW-4" style="color: #801b18">895LT</h3>
+        <h3 class="model BMW-5" style="color: #d9df2b">8SPIDER</h3>
+        <p>
+          Lorem lorem oremn Lorem lor em oremn Loreml orem oremn Lorem lorem
+          oremn Lorem loremor emn
+        </p>
+        <a href="#">Enquire</a>
+      </div>
+      <div class="screen">
+        <div class="shadow"></div>
+        <div>
+          <span style="--i: 0">
+            <!-- insert the screen video-->
+            <!--video data mapping-->
+            <!--match the video name with the class name-->
+            <video
+              class="trailer BMW-0 screen-video active"
+              src="./assets/BMW-0.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+            <video
+              class="trailer BMW-1 screen-video active"
+              src="./assets/BMW-1.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+
+            <video
+              class="trailer BMW-2 screen-video active"
+              src="./assets/BMW-2.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+
+            <video
+              class="trailer BMW-3 screen-video active"
+              src="./assets/BMW-3.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+
+            <video
+              class="trailer BMW-5 screen-video active"
+              src="./assets/BMW-3.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 1">
+            <video
+              class="trailer BMW-1 screen-video active"
+              src="./assets/trailer-1  .mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 2">
+            <video
+              class="trailer BMW-2 screen-video active"
+              src="./assets/trailer-2.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 3">
+            <video
+              class="trailer BMW-4 screen-video active"
+              src="./assets/trailer-4.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="carousel">
+          <a class="carousel-item" href="#">
+            <img src="images/cars/bmw-10.jpeg" alt="" />
+        <h4>LTsPIDER</h4>  
+        </a>
+          <a class="carousel-item" href="#">
+            <img src="images/cars/bmw-5.jpeg" alt="" />
+            <h4 style="color: #054dc1">ARtu</h4>  
+        </a>
+          <a class="carousel-item" href="#">
+            <img src="images/cars/bmw-7.jpeg" alt="" />
+            <h4 style="color: #273f07">895T</h4> 
+        </a>
+          <a class="carousel-item" href="#">
+            <img src="images/cars/bmw-2.jpeg" alt="" />
+          <h4 style="color: #801b18">895LT</h4>
+        </a>
+          <a class="carousel-item" href="#">
+            <img src="images/cars/bmw-3.jpeg" alt="" />
+          <h4 style="color: #d9df2b">8SPIDER</h4>
+        </a>
+        </div>
+      </div>
+    </div>
+    <!--ul class="sci">
+      <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+      <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+      <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+    </ul-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
+  </body>
+</html>
